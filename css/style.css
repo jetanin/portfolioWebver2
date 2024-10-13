@@ -69,16 +69,20 @@ header p {
     padding: 60px 0;
     text-align: center;
 }
-.about-list .profile_pic img{ 
-    height: auto;
-    width: 25%;
-    /* border-radius: 80%; */
-}
 
 .about-list{
     display: flex;
     justify-content: space-around;
     padding: 30px 0;
+}
+.about-list .profile_pic img{ 
+    height: auto;
+    width: 25%;
+    border-radius: 80%;
+}
+.about-list p{
+    margin-left: 0px;
+    text-align: left;
 }
 
 .education-list {
