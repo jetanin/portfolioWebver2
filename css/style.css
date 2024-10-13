@@ -65,15 +65,34 @@ header p {
     margin-bottom: 10px;
 }
 
-.about-section, .skills-section, .portfolio-section, .contact-section {
+.about-section,.education-section, .skills-section, .portfolio-section, .contact-section {
     padding: 60px 0;
     text-align: center;
 }
-#profile_pic{
+.about-list .profile_pic img{ 
     height: auto;
-    width: 30%;
-    /* clip-path: inset(20% 0px 0px 0px); */
+    width: 25%;
+    /* border-radius: 80%; */
+}
+
+.about-list{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+.education-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+.school img{
+    height: 30%;
+    width: auto;
     border-radius: 80%;
+    border-color: black;
+    border: 2px solid;
 }
 
 .skills-list {
