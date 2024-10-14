@@ -21,7 +21,8 @@ window.addEventListener('scroll', () => {
     });
 });
 
-const text = "Hello, I am learning to create a typing animation with JavaScript by using ChatGPT!";
+// const text = "Hello, I am learning to create a typing animation with JavaScript by using ChatGPT!";
+const text = "CPE 38 KMUTT";
 const textElement = document.getElementById('typing-text');
 
 let index = 0;
