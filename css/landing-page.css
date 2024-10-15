@@ -53,6 +53,7 @@ nav{
     padding-bottom: 14px;
 }
 nav ul{
+    list-style-type: none;
     display: flex;
     align-items: center;
 }
@@ -82,7 +83,7 @@ ul li a:hover, ul li .active{
     width: 330px;
     position: absolute; 
 }
-@media only screen and (max-width:875px) {
+@media only screen and (max-width:1080px) {
     nav ul{
         display: none;
     }
